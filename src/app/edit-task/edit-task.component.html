@@ -1,0 +1,15 @@
+<div class="container">
+  <h1 class="heading">Edit Task</h1>
+  <div class="button">
+    <button (click)="saveEdit()" class="save-btn">Save</button>
+    <button (click)="cancelEdit()" class="back-btn">Back</button>
+  </div>
+  <input
+  type="text"
+  [(ngModel)]="taskName"
+  placeholder="Enter the Task Here"
+  class="edit-task"
+/>
+</div>
+
+

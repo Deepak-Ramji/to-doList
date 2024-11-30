@@ -1,0 +1,13 @@
+<div class="container">
+    <h1 class="heading">Add Task</h1>
+    <div class="button">
+      <button (click)="addTask()" class="save-btn">Save</button>
+      <button (click)="goBack()" class="back-btn">Back</button>
+    </div>
+    <input
+    type="text"
+    [(ngModel)]="newTask"
+    placeholder="Enter the Task Here"
+    class="add-task"
+  />
+  </div>
